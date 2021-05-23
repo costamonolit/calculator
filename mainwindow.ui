@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>572</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#DCDCDC;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>190</y>
+      <width>121</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Javanese Text</family>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#6495ED;</string>
+    </property>
+    <property name="text">
+     <string>Log</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>280</y>
+      <width>401</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Javanese Text</family>
+      <pointsize>72</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color:#6495ED;</string>
+    </property>
+    <property name="text">
+     <string>______________________________</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Javanese Text</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+background-color:white;
+border: 4px solid #6495ED; 
+color:#6495ED;
+border-radius:9px;
+}
+QComboBox:hover {
+border: 6px solid #6495ED;
+background-color:#ffffff;
+color:#6495ED;
+}
+QComboBox:pressed {
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+stop: 0 #dadbde, stop: 1 #A8A8A8);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="base1">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>130</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Javanese Text</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+background-color:white;
+border: 4px solid #6495ED; 
+color:#6495ED;
+border-radius:9px;
+}
+QLineEdit:hover {
+border: 6px solid #6495ED;
+background-color:#ffffff;
+color:#6495ED;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="base2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>240</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Javanese Text</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+background-color:white;
+border: 4px solid #6495ED; 
+color:#6495ED;
+border-radius:9px;
+}
+QLineEdit:hover {
+border: 6px solid #6495ED;
+background-color:#ffffff;
+color:#6495ED;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Logarithm1">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>80</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Javanese Text</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+background-color:white;
+border: 4px solid #6495ED; 
+color:#6495ED;
+border-radius:9px;
+}
+QLineEdit:hover {
+border: 6px solid #6495ED;
+background-color:#ffffff;
+color:#6495ED;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Logarithm2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>200</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Javanese Text</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+background-color:white;
+border: 4px solid #6495ED; 
+color:#6495ED;
+border-radius:9px;
+}
+QLineEdit:hover {
+border: 6px solid #6495ED;
+background-color:#ffffff;
+color:#6495ED;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="resbutton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>390</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Javanese Text</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:#ffffff;
+    color:black;
+    border-radius:9px;
+    border: 4px solid #6495ED;
+	color:#6495ED;
+}
+QPushButton:hover {
+border: 6px solid #6495ED;
+background-color:#ffffff;
+box-shadow: 0px 0px 3px 3px #ffff ;
+color:#6495ED;
+}
+QPushButton:pressed {
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+stop: 0 #dadbde, stop: 1 #A8A8A8);
+}</string>
+    </property>
+    <property name="text">
+     <string>result</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="power">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>30</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Javanese Text</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+background-color:white;
+border: 4px solid #6495ED; 
+color:#6495ED;
+border-radius:9px;
+}
+QLineEdit:hover {
+border: 6px solid #6495ED;
+background-color:#ffffff;
+color:#6495ED;
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>32769</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>390</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Javanese Text</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+background-color:white;
+border: 4px solid #6495ED; 
+color:#6495ED;
+border-radius:9px;
+}
+QLineEdit:hover {
+border: 6px solid #6495ED;
+background-color:#ffffff;
+color:#6495ED;
+}
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>70</y>
+      <width>121</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Javanese Text</family>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#6495ED;</string>
+    </property>
+    <property name="text">
+     <string>Log</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
